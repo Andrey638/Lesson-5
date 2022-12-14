@@ -5,7 +5,7 @@ Console.WriteLine("Задайте размер массива");
 int a = Convert.ToInt32(Console.ReadLine());
 int[] array = new int[a];
 Random random = new Random();
-Console.WriteLine("Задайте размер значения от..до.. ");
+Console.WriteLine("Задайте размер значения от..->до.. ");
 int n = Convert.ToInt32(Console.ReadLine());
 int m = Convert.ToInt32(Console.ReadLine());
 for (int i = 0; i < array.Length; i++)
